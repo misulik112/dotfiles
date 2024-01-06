@@ -489,6 +489,12 @@ alias awa="arcolinux-welcome-app"
 #git
 alias rmgitcache="rm -r ~/.cache/git"
 alias grh="git reset --hard"
+alias gsw="git switch"
+alias gswc="git switch -c"
+alias gswr="git switch-recent"
+alias gca="git commit --verbose --all"
+alias gcam="git commit --all --message"
+alias gacm="git add --all && git commit --message"
 
 #pamac
 alias pamac-unlock="sudo rm /var/tmp/pamac/dbs/db.lock"
