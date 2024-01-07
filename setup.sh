@@ -16,7 +16,7 @@ mkdir -p ~/.config
 [ ! -e ~/.config/qtile] && ln -s "$PWD/config/qtile" ~/.config/qtile
 
 # Link Neovim config if it doesn't exists
-#[ ! -e ~/.config/nvim ] && ln -s "$PWD/config/nvim" ~/.config/nvim
+[ ! -e ~/.config/nvim ] && ln -s "$PWD/config/nvim" ~/.config/nvim
 
 # Link Xmodmap configuration
 [ ! -e ~/.Xmodmap ] && ln -s "$PWD/config/Xmodmap" ~/.Xmodmap
