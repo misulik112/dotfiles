@@ -144,13 +144,6 @@ return {
 		end,
 	},
 	{
-		"altermo/ultimate-autopair.nvim",
-		enabled = false,
-		event = { "InsertEnter", "CmdlineEnter" },
-		branch = "v0.6",
-		opts = {},
-	},
-	{
 		"ckolkey/ts-node-action",
 		dependencies = { "nvim-treesitter" },
 		enabled = true,
