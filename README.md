@@ -3,3 +3,4 @@ My personal configurations for:
 - Zsh;  
 - Git;  
 - Xmodmap for remaping the capslck to control;  
+- Neovim;
