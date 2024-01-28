@@ -15,5 +15,5 @@ disabled = true
 # Use custom format
 format = '''
 [┌───────────────────>](bold green)
-[│](bold green)$directory$rust$package
+[│](bold green)$directory$python$package
 [└─>](bold green) '''
