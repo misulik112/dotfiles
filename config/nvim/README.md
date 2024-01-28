@@ -1,7 +1,4 @@
-# My personal Neovim configuration
+# 💤 LazyVim
 
-Config inspirations:  
-[The Rad Lectures - YouTube](https://www.youtube.com/watch?v=ZjMzBd1Dqz8&t=5694s);  
-[The Rad Lectures - GitHub](https://github.com/radleylewis/nvim/tree/master);  
-[Learn Neovim The Practical Way - Medium](https://alpha2phi.medium.com/learn-neovim-the-practical-way-8818fcf4830f#8c31);  
-
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
