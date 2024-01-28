@@ -32,3 +32,6 @@ mkdir -p ~/.config
 
 # Link ZSH config if it doesn't exists
 #[ ! -e ~/.zshrc ] && ln -s "$PWD/config/zshrc" ~/.zshrc
+
+# Link Tmux config if it doesn't exists
+[ ! -e ~/.tmux.conf ] && ln -s "$PWD/config/tmux/tmux.conf" ~/.tmux.conf
