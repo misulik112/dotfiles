@@ -15,5 +15,8 @@ disabled = true
 # Use custom format
 format = '''
 [┌───────────────────>](bold green)
-[│](bold green)$directory$python$package
+[│](bold green)$directory$package
 [└─>](bold green) '''
+
+[python]
+symbol = "🐍 "
