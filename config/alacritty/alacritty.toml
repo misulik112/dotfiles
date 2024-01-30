@@ -20,7 +20,11 @@ history = 20000
 [font]
 size = 10
 offset = { x = 0, y = 1 }
-normal = { family = "MononokiNerdFont", style = "Regular" }
-bold = { family = "MononokiNerdFont", style = "Bold" }
-italic = { family = "MononokiNerdFont", style = "Italic" }
-bold_italic = { family = "MononokiNerdFont", style = "BoldIt" }
+# normal = { family = "MononokiNerdFont", style = "Regular" }
+# bold = { family = "MononokiNerdFont", style = "Bold" }
+# italic = { family = "MononokiNerdFont", style = "Italic" }
+# bold_italic = { family = "MononokiNerdFont", style = "BoldIt" }
+normal = { family = "SourceCodePro", style = "Regular" }
+bold = { family = "SourceCodePro", style = "Bold" }
+italic = { family = "SourceCodePro", style = "Italic" }
+bold_italic = { family = "SourceCodePro", style = "BoldIt" }
