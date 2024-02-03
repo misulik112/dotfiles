@@ -42,16 +42,31 @@ cd "$selected_project" || exit
 echo "You are now in: $(pwd)"
 
 # Check if project has a virtual environment
-if [ -d "venv" ]; then
-	# Activate virtual environment
-	source venv/bin/activate
-	echo "Activated virtual environment 'venv'."
-elif [ -d ".venv" ]; then
-	# Activate virtual environment
-	source .venv/bin/activate
-	echo "Activated virtual environment '.venv'."
+if [ -d "venv" ] || [ -d ".venv" ]; then
+	read -p "A virtual environment exists for this project. Do you want to activate it? (y/n): " activate_venv
+	if [[ $activate_venv =~ ^[Yy]$ ]]; then
+		# Activate virtual environment
+		if [ -d "venv" ]; then
+			source venv/bin/activate
+			echo "Activated virtual environment 'venv'."
+		elif [ -d ".venv" ]; then
+			source .venv/bin/activate
+			echo "Activated virtual environment '.venv'."
+		fi
+	else
+		echo "Virtual environment not activated."
+	fi
 else
-	echo "No virtual environment found."
+	read -p "No virtual environment found for this project. Do you want to create one? (y/n): " create_venv
+	if [[ $create_venv =~ ^[Yy]$ ]]; then
+		# Create virtual environment
+		python3 -m venv .venv
+		echo "Virtual environment 'venv' created."
+		source .venv/bin/activate
+		echo "Activated virtual environment 'venv'."
+	else
+		echo "No virtual environment created."
+	fi
 fi
 
 # Open tmux in the project directory
