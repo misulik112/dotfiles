@@ -95,7 +95,7 @@ opt.sessionoptions = { "buffers", "curdir", "tabpages", "winsize" }
 opt.shiftround = true
 
 -- Set the number of spaces for each level of indentation
-opt.shiftwidth = 4
+opt.shiftwidth = 2
 
 -- Suppress various kinds of messages
 opt.shortmess:append { W = true, I = true, c = true, C = true }
@@ -128,7 +128,7 @@ opt.splitkeep = "screen"
 opt.splitright = true
 
 -- Set the number of spaces for a tab character
-opt.tabstop = 4
+opt.tabstop = 2
 
 -- Enable true color support in the terminal
 opt.termguicolors = true
