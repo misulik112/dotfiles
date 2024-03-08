@@ -416,4 +416,3 @@ neofetch
 #sysinfo-retro
 #cpufetch
 #colorscript random
-export PATH="$PATH:~/development/flutter/bin"
