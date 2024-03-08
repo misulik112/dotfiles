@@ -16,7 +16,7 @@ mkdir -p ~/.config
 [ ! -e ~/.config/qtile ] && ln -s "$PWD/config/qtile" ~/.config/qtile
 
 # Link Neovim config if it doesn't exists
-[ ! -e ~/.config/nvim ] && ln -s "$PWD/config/nvim" ~/.config/nvim
+#[ ! -e ~/.config/nvim ] && ln -s "$PWD/config/nvim" ~/.config/nvim
 
 # Link Xmodmap configuration
 [ ! -e ~/.Xmodmap ] && ln -s "$PWD/config/Xmodmap" ~/.Xmodmap
@@ -31,7 +31,7 @@ mkdir -p ~/.config
 [ ! -e ~/.bashrc ] && ln -s "$PWD/config/bashrc" ~/.bashrc
 
 # Link ZSH config if it doesn't exists
-#[ ! -e ~/.zshrc ] && ln -s "$PWD/config/zshrc" ~/.zshrc
+[ ! -e ~/.zshrc ] && ln -s "$PWD/config/zshrc" ~/.zshrc
 
 # Link Tmux config if it doesn't exists
 [ ! -e ~/.tmux.conf ] && ln -s "$PWD/config/tmux/tmux.conf" ~/.tmux.conf
