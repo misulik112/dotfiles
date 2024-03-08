@@ -35,3 +35,6 @@ mkdir -p ~/.config
 
 # Link Tmux config if it doesn't exists
 [ ! -e ~/.tmux.conf ] && ln -s "$PWD/config/tmux/tmux.conf" ~/.tmux.conf
+
+# Link Tmux plugins if it doesn't exists
+[ ! -e ~/.tmux ] && ln -s "$PWD/config/tmux/tmux" ~/.tmux
