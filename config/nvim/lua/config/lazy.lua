@@ -22,7 +22,7 @@ require("lazy").setup {
 --    { import = "pde" },
   },
   defaults = { lazy = true, version = nil },
-  install = { missing = true, colorscheme = { "kanagawa" } },
+  install = { missing = true, colorscheme = { "catppuccin" } },
   dev = { patterns = jit.os:find "Windows" and {} or { "uam" } },
   checker = { enabled = false},
   performance = {
