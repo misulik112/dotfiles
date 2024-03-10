@@ -399,7 +399,7 @@ alias personal='cp -Rf /personal/* ~'
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
 # My python projects
-alias pp="source ~/repos/dotfiles/scripts/py_projects.sh"
+alias pp="source ~/Repos/dotfiles/scripts/py_projects.sh"
 
 # reporting tools - install when not installed
 neofetch
