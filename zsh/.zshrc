@@ -504,10 +504,10 @@ alias pamac-unlock="sudo rm /var/tmp/pamac/dbs/db.lock"
 alias personal='cp -Rf /personal/* ~'
 
 # Open tmux in dotfiles repo
-alias dot="py ~/repos/arconet-dotfiles/qtile/scripts/dotfiles.py"
+alias dot="py ~/dotfiles/scripts/dotfiles.py"
 
 # Python projects
-alias pp="py ~/repos/arconet-dotfiles/qtile/scripts/py_projects.py"
+alias pp="py ~/dotfiles/scripts/py_projects.py"
 
 # Activate python virtual environment (.venv)
 alias act="source .venv/bin/activate"
